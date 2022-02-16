@@ -1,0 +1,213 @@
+
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+
+#containerHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background: #d9d9d9;
+    height: 50px;
+}
+
+#menu-lista {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 20px;
+}
+
+.none a{
+    color: #828282;
+    text-decoration: none;
+}
+
+.none a:hover {
+    font-weight: bolder;
+}
+
+.bold a{
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bold a:hover {
+    font-weight: bolder;
+}
+
+
+.flex-menu {
+  margin-right: 50px;  
+  
+}
+
+
+.listaProdutos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+#mainProdutos {
+    display: flex;
+}
+
+#secaoProdutos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;       
+    grid-gap: 20px;
+}
+
+.flex-logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.listaProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.listaProdutos h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+figcaption {
+    display: none;
+}
+
+.tituloSpan {
+    background-color: #2E245E;
+    padding: 5px;
+    color: white;
+}
+
+.carrinho {
+    display: flex;
+
+}
+
+.botaoCarrinho {
+    background-color: #6B54DE;
+    color: white;
+    margin-left: 5px;
+}
+
+.divCarrinho {
+    background-color: #6B54DE;
+    width: 310px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    align-content: center;
+}
+
+
+.conteudoCarrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    height: 250px;
+    margin-left: 5px;
+}
+
+.conteudoCarrinho h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.valorSpan {
+    color: #2E245E;
+}
+
+.pesquisa {
+    display: flex;
+    margin-top: 20px;
+}
+
+.pesquisa input {
+    width: 246px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.adcCarrinho {
+    color: #828282;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.imagemProduto img:hover {
+    background-color: #F5F5F5;
+}
+
+.gridContainer {
+    border: 2px thin red;
+}
