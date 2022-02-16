@@ -204,6 +204,10 @@ figcaption {
     
 }
 
+.adcCarrinho:hover {
+    font-weight: bolder;
+}
+
 .imagemProduto img:hover {
     background-color: #F5F5F5;
 }
