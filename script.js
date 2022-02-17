@@ -98,6 +98,7 @@ function criarCardsProdutos (){
         const botaoAdcCarrinho = document.createElement("a");
         botaoAdcCarrinho.innerText = arrayProdutos[cont].botao;
         botaoAdcCarrinho.className = "adcCarrinho";
+        botaoAdcCarrinho.id = "addCarrinho";
         listaProdutosDetalhes.appendChild(botaoAdcCarrinho);
 
     }

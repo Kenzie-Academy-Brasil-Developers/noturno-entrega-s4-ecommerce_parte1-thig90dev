@@ -208,6 +208,10 @@ figcaption {
     font-weight: bolder;
 }
 
+#addCarrinho:hover {
+    cursor: pointer;
+}
+
 .imagemProduto img:hover {
     background-color: #F5F5F5;
 }
